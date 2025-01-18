@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "Node16",
+        "moduleResolution": "node16",
+        "target": "ES2022",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "sourceMap": true,
+        "noEmit": true,
+        "allowJs": false,
+        "lib": ["ES6"]
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+}

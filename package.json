@@ -1,0 +1,25 @@
+{
+  "name": "mediadc-massdelete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
+  "dependencies": {
+    "@commander-js/extra-typings": "^13.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^13.0.0",
+    "is-interactive": "=2",
+    "multispinner": "=0.2.1",
+    "tsx": "^4.19.2",
+    "webdav": "^4.11.4"
+  },
+  "devDependencies": {
+    "@types/node": "20"
+  }
+}
