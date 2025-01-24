@@ -7,6 +7,7 @@ import isInteractive from "is-interactive";
 import MultiSpinner from "multispinner";
 import { readFile, writeFile } from "node:fs/promises";
 import chalk from "chalk";
+import path from "node:path";
 
 // Argument parsing setup
 const program = new Command("mediadc-massdelete")
@@ -277,7 +278,16 @@ async function main() {
     );
 
     if (args.cacheInfo && existsSync(cachePath)) {
-        rmSync(cachePath);
+        if (args.dryRun) {
+            console.info(
+                `Leaving files info cached in ${path.relative(
+                    process.cwd(),
+                    cachePath
+                )}`
+            );
+        } else {
+            rmSync(cachePath);
+        }
     }
 }
 
