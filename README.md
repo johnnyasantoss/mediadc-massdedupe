@@ -97,4 +97,4 @@ Bear in mind that I created this for personal use and may not be able to support
 
 ## License
 
-[Unlicense Yourself](LICENSE)
+[License](LICENSE)
