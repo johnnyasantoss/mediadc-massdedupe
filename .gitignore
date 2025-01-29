@@ -146,3 +146,5 @@ dist
 
 data/
 run.sh
+
+.DS_Store

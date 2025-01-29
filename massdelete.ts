@@ -32,12 +32,12 @@ const program = new Command("mediadc-massdelete")
         true
     )
     .option(
-        "--exclude <value...>",
+        "-x, --exclude <value...>",
         "Files to exclude from deletion (insensitive)",
         [] as string[]
     )
     .option(
-        "--include <value...>",
+        "-i, --include <value...>",
         "Files that the path contains this strings will be preferred for deletion (insensitive)",
         [] as string[]
     )
@@ -449,3 +449,4 @@ function printFileSummary(filesInfo: Record<string, false | FileStat>) {
         }
     }
 }
+
