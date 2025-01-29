@@ -27,7 +27,7 @@ Export the duplicate finder task result in **json**. Get the full path of that f
 The script is executed using:
 
 ```bash
-./massdelete.ts [options] [--] <export-file-from-mediadc.json>
+./massdedupe.ts [options] [--] <export-file-from-mediadc.json>
 ```
 
 ### Required Arguments
@@ -60,7 +60,7 @@ Here are examples of how to use the script:
 
 ### Basic Usage with Exclude
 ```bash
-./massdelete.ts \
+./massdedupe.ts \
     -h nextcloud.example.com \
     -u myself \
     -p $(cat path/to/passwd_file) \
@@ -71,7 +71,7 @@ Here are examples of how to use the script:
 
 ### Using Include Patterns
 ```bash
-./massdelete.ts \
+./massdedupe.ts \
     -h nextcloud.example.com \
     -u myself \
     -p $(cat path/to/passwd_file) \

@@ -1,8 +1,8 @@
 {
-  "name": "mediadc-massdelete",
+  "name": "mediadc-massdedupe",
   "version": "1.0.0",
   "description": "",
-  "main": "massdelete.ts",
+  "main": "massdedupe.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

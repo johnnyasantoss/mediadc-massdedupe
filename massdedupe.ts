@@ -10,8 +10,8 @@ import chalk from "chalk";
 import path from "node:path";
 
 // Argument parsing setup
-const program = new Command("mediadc-massdelete")
-    .usage(`mediadc-massdelete [options]... [--] <json file>`)
+const program = new Command("mediadc-massdedupe")
+    .usage(`mediadc-massdedupe [options]... [--] <json file>`)
     .description(
         "Removes duplicates found with MediaDC extension on Nextcloud, leaving only one file (bigger, smaller path)"
     )
